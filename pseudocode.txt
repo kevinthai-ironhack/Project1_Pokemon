@@ -1,0 +1,38 @@
+Start the game
+
+Display all available pokemons to choose 
+
+Propose a choice by typing: 1 2 3 (display an image of choosen one)
+
+Computer chooses randomly from 2 another ones
+
+Display the battle final choice :  Player's choice vs Computer's choice
+
+Check if player attacks first by a speed of pokemon:
+	if yes, player chooses an attack
+		
+	if no, pc attacts first
+
+Damage calculation:
+	Choose attack between 2 possibles
+	Check for an advantange by attack level:
+		is yes, damage * 2
+		elif damage /2
+		else: *1
+	(base_damage_choosen_attack * advantage_level) + ( x% * attack_stats) - (y% * opposent_def) 		
+	
+While remaining hp is not 0:
+	Player or Pc attacks
+	damage_calculation()
+	update for players and pcs HP
+	is hp == 0
+		break
+
+Display battle result : who wins
+
+Display Congratulation or Next time it would be better
+
+End
+
+	
+
